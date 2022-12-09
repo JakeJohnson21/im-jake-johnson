@@ -8,7 +8,9 @@ function DevBanner() {
           Expect a range of experiences offering
         </p>
         <p className="banner__subtitle_item">Visually rewarding solutions</p>
-        <p className="name">Jake Johnson</p>
+        <p className="name" data-text="Jake Johnson">
+          Jake Johnson
+        </p>
       </div>
     </section>
   );
