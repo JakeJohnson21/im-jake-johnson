@@ -1,0 +1,17 @@
+.footer__wrapper {
+  position: fixed;
+  bottom: 0;
+  font-size: 14px;
+  font-family: urbanist;
+  font-weight: 400;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.footer__copyright {
+  margin-left: 50px;
+  font-size: 2vw;
+  font-weight: 200;
+}
