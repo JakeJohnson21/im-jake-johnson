@@ -26,6 +26,7 @@
   font-weight: 600;
   font-style: normal;
   margin-bottom: 3vmin;
+  text-shadow: 0.4vmin 0.4vmin 0.6vmax rgb(0, 0, 0, 0.6);
 }
 
 .banner__subtitle {
@@ -39,6 +40,7 @@
   font-weight: 300;
   font-size: 2.5vmax;
   margin: 2vmin;
+  text-shadow: 0.25vmin 0.25vmin 0.35vmax rgb(0, 0, 0, 1);
 }
 /* .bold-one {
   position: relative;
@@ -58,6 +60,7 @@
   margin-top: 1vmin;
   font-size: 2.6vmax;
   position: relative;
+  text-shadow: 0.3vmin 0.3vmin 0.5vmax black;
   /* left: 0.8vw; */
 }
 .name {
@@ -71,14 +74,37 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   font-weight: 200;
-  color: rgba(0, 0, 0, 1);
   font-size: 5vmax;
-  z-index: 1;
+  z-index: -1;
   margin: 0;
   margin-left: 1em;
   margin-top: 0.3em;
   transition: color 0.2s 0s ease-in-out;
+  filter: drop-shadow(0.4vmin 0.3vmin 0.3vmax black);
 }
+/* .name:before {
+  content: "Jake Johnson";
+  background: linear-gradient(
+    43deg,
+    rgba(102, 208, 210, 0.852000175070028) 3%,
+    rgba(98, 187, 213, 1) 100%
+  );
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  animation: rainbow 2s ease-in-out infinite;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 200;
+  color: rgb(255, 255, 255);
+  font-size: 5vmax;
+  z-index: 0;
+  margin: 0;
+  margin-left: 0;
+  margin-top: 0.3em;
+  transition: color 0.2s 0s ease-in-out;
+  text-shadow: 0.2vmin 0.2vmin 0.3vmax rgb(0, 0, 0, 1);
+} */
 .banner__subtitle_item,
 .banner__title,
 .name {
