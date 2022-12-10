@@ -105,9 +105,8 @@
 } */
 @media screen and (max-width: 720px) {
   .banner__wrapper {
-    padding-left: 1em;
+    padding: 1em;
     width: 100vw;
-    text-align: left;
     margin: 0;
   }
   .banner__title {
@@ -127,6 +126,7 @@
   .name {
     font-size: 14vmin;
     margin-top: 5vmin;
+    text-align: center;
   }
 } /*
 @media screen and (max-height: 500px) {
