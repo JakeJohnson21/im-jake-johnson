@@ -10,12 +10,10 @@ function App() {
     setTimeout(() => {
       setReload(true);
     }, 800);
-    console.log("reload in effect: ", reload);
   }, []);
 
-  console.log("reload: ", reload);
   return (
-    <main className="app">
+    <main className="app app-dark">
       <DevBanner reload={reload} />
       {/* <Footer /> */}
     </main>

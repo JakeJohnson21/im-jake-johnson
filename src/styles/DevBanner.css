@@ -3,11 +3,7 @@
   font-size: 14px;
   margin-left: 4vw;
 }
-/* .banner__title:hover,
-.banner__subtitle_item:hover,
-.name:hover {
-  transition: 0.6s 0s ease-in-out;
-} */
+
 .title-hidden {
   transform: translateX(5vw);
   transition: all 0.6s 0s ease-out;
@@ -42,18 +38,9 @@
   margin: 2vmin;
   text-shadow: 0.25vmin 0.25vmin 0.35vmax rgb(0, 0, 0, 1);
 }
-/* .bold-one {
-  position: relative;
-  top: 0.4vh;
-  font-size: 3.2vw;
-  font-weight: 800;
-  margin: 0 0.35vw;
-} */
+
 .banner__subtitle_item:first-child {
   position: relative;
-  /* left: 1.2vw; */
-  /* margin: 20px; */
-  /* margin-bottom: 0.6vh; */
 }
 .banner__subtitle_item:nth-child(3) {
   font-weight: 600;
@@ -61,7 +48,6 @@
   font-size: 2.6vmax;
   position: relative;
   text-shadow: 0.3vmin 0.3vmin 0.5vmax black;
-  /* left: 0.8vw; */
 }
 .name {
   background: linear-gradient(
@@ -75,61 +61,20 @@
   background-clip: text;
   font-weight: 200;
   font-size: 5vmax;
-  z-index: -1;
+  z-index: 1;
   margin: 0;
   margin-left: 1em;
   margin-top: 0.3em;
   transition: color 0.2s 0s ease-in-out;
   filter: drop-shadow(0.4vmin 0.3vmin 0.3vmax black);
 }
-/* .name:before {
-  content: "Jake Johnson";
-  background: linear-gradient(
-    43deg,
-    rgba(102, 208, 210, 0.852000175070028) 3%,
-    rgba(98, 187, 213, 1) 100%
-  );
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  animation: rainbow 2s ease-in-out infinite;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  font-weight: 200;
-  color: rgb(255, 255, 255);
-  font-size: 5vmax;
-  z-index: 0;
-  margin: 0;
-  margin-left: 0;
-  margin-top: 0.3em;
-  transition: color 0.2s 0s ease-in-out;
-  text-shadow: 0.2vmin 0.2vmin 0.3vmax rgb(0, 0, 0, 1);
-} */
+
 .banner__subtitle_item,
 .banner__title,
 .name {
   transition: all 0.6s 0s linear;
 }
 
-/* @media screen and (max-width: 1280px) {
-  .banner__title {
-    font-size: calc(5vw + 0.5rem);
-  }
-
-  .banner__subtitle_item {
-    margin: 18px;
-    font-size: 3.2vw;
-  }
-  .banner__subtitle_item:nth-child(3) {
-    font-size: 3.7vw;
-    margin-top: 20px;
-  }
-  .name {
-    margin-top: 0.8em;
-    font-size: 4.8vw;
-    margin-left: 2vw;
-  }
-} */
 @media screen and (max-width: 720px) {
   .banner__wrapper {
     padding: 1em;
@@ -157,31 +102,8 @@
     margin-top: 5vmin;
     text-align: center;
   }
-} /*
-@media screen and (max-height: 500px) {
-  .banner__wrapper {
-    margin: 50px 0 50px 70px;
-  }
-  .banner__subtitle {
-    margin-left: 1vw;
-  }
-  .banner__title {
-    font-size: 5vw;
-  }
-  .banner__subtitle_item {
-    font-size: 2.5vw;
-  }
-  .banner__subtitle_item:first-child {
-    margin: 20px 0px 10px 20px;
-  }
-  .banner__subtitle_item:nth-child(3) {
-    font-size: 3.3vw;
-    margin-top: 20px;
-  }
-  .name {
-    font-size: 4vw;
-  } 
-}*/
+}
+
 @media screen and (max-width: 600) {
   .banner__subtitle_item {
     margin: 10px;

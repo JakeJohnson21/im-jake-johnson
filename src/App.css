@@ -2,9 +2,15 @@ html {
   width: 100vw;
   height: 100vh;
   margin: auto;
-  background-color: rgb(34, 38, 45);
-  /* background: linear-gradient(196deg, rgb(49, 56, 60) 3%, rgb(35, 36, 40) 55%); */
+  background: linear-gradient(196deg, rgb(49, 56, 60) 3%, rgb(35, 36, 40) 55%);
   padding: 0;
+}
+.app-light {
+  color: black;
+  background-color: whitesmoke;
+}
+.app-dark {
+  color: rgb(221, 226, 237, 1);
 }
 .app {
   margin: 0;
@@ -13,5 +19,4 @@ html {
   display: flex;
   height: 100vh;
   align-items: center;
-  color: rgb(221, 226, 237, 1);
 }
