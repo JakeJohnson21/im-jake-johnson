@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import DevBanner from "./components/DevBanner";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 
 function App() {
   const [reload, setReload] = useState(false);

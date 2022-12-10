@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer className="footer__wrapper">
-      <p className="footer__copyright">Jake Johnson 2022 ©</p>
+      <div className="footer__content"></div>
     </footer>
   );
 }
