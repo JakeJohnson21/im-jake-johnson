@@ -22,8 +22,25 @@
   font-weight: 600;
   font-style: normal;
   margin-bottom: 3vmin;
+  transition: all 0.3s linear;
   text-shadow: 0.4vmin 0.4vmin 0.6vmax rgb(0, 0, 0, 0.6);
 }
+.banner__title:hover {
+  font-weight: 200;
+  transition: all 0.3s linear;
+}
+/* .banner__subtitle_item:first-child:hover {
+  font-weight: 700;
+  transition: all 0.5s linear;
+}
+.banner__subtitle_item:nth-child(2):hover {
+  color: red;
+  font-weight: 800;
+}
+.banner__subtitle_item:nth-child(3):hover {
+  font-weight: 100;
+  transition: all 0.5s linear;
+} */
 
 .banner__subtitle {
   font-family: "urbanist";
@@ -60,7 +77,6 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   font-weight: 200;
-  font-size: 5vmax;
   z-index: 1;
   margin: 0;
   margin-left: 1em;
@@ -68,8 +84,21 @@
   transition: color 0.2s 0s ease-in-out;
   filter: drop-shadow(0.4vmin 0.3vmin 0.3vmax black);
 }
+.name-hidden {
+  opacity: 0;
+  transform: translateX(-6vw);
+  transform: translateY(7vh);
+  font-size: 6.6vmax;
+  transition: all 1.6s linear;
+}
+.name-visible {
+  opacity: 1;
+  transform: translateX(0vw);
+  transition: all 1s 1.2s linear;
+  font-size: 5vmax;
+}
 
-.banner__subtitle_item,
+.name .banner__subtitle_item,
 .banner__title,
 .name {
   transition: all 0.6s 0s linear;

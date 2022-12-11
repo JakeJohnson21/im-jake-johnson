@@ -3,6 +3,8 @@ function DevBanner({ reload }) {
     !reload ? "title-hidden" : "title-visible"
   }`;
 
+  const nameClass = `name ${!reload ? "name-hidden" : "name-visible"}`;
+
   return (
     <section className="banner__wrapper">
       <h1 className={titleClass}>Just getting started</h1>
@@ -12,7 +14,7 @@ function DevBanner({ reload }) {
           Expect a range of experiences offering
         </p>
         <p className="banner__subtitle_item">Visually rewarding solutions</p>
-        <p className="name">Jake Johnson</p>
+        <p className={nameClass}>Jake Johnson</p>
       </div>
     </section>
   );
